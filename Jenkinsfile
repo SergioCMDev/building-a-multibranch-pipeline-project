@@ -1,8 +1,8 @@
 Pipeline {
     agent any
-    environment {
+    /*environment {
         CI = 'true'
-    }
+    }*/
     stages {
         stage('Build') {
             steps {

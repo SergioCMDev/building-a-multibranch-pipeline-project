@@ -1,4 +1,4 @@
-pipeline {
+Pipeline {
     agent any
     environment {
         CI = 'true'
